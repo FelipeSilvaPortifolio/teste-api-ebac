@@ -16,6 +16,7 @@ pipeline{
                     sh 'NO_COLOR=1 npm run cy:run'
                 }
             }
+            }
         }
     }
 }
