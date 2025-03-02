@@ -1,5 +1,5 @@
 pipeline{
-    agent any{
+    agent any
 
         stages{
             stage('Clonar o repositório'){
@@ -18,5 +18,4 @@ pipeline{
                 }
             }
         }
-    }
 }
